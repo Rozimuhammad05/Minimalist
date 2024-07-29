@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Minimalist || Contact</title>
+
+  <!-- STYLES  -->
+  <!-- <link rel="stylesheet" href="css/normalize.css"> -->
+  <!-- <link rel="stylesheet" href="css/styles.css"> -->
+  <link rel="stylesheet" href="css/css.min.css">
+</head>
+<body>
+
+  <!-- SITE-HEADER  -->
+  <header class="site-header">
+    <div class="container site-header__container">
+
+      <!-- LOGO  -->
+      <a class="logo site-header__logo" href="index.html">
+        <img class="logo__img" src="img/logo.svg" alt="Minimalist logo" width="60" height="32">
+      </a>
+
+      <!-- SITE NAVIGATOR  -->
+      <nav class="sitenav site-header__sitenav">
+        <ul class="sitenav__list">
+          <li class="sitenav__item">
+            <a class="sitenav__link" href="index.html">Home</a>
+          </li>
+          <li class="sitenav__item">
+            <a class="sitenav__link" href="portfolio.html">Portfolio</a>
+          </li>
+          <li class="sitenav__item">
+            <a class="sitenav__link sitenav__link--active" href="contact.html">Contact me</a>
+          </li>
+        </ul>
+      </nav>
+
+    </div>
+  </header>
+
+  <!-- MAIN-CONTENT  -->
+  <main class="main-content">
+
+    <div class="section-contact">
+      <div class="container section-contact__container">
+
+        <h1 class="visually-hidden">Contact page</h1>
+
+        <!-- GET-IN-TOUCH  -->
+        <section class="section-contact__content-inner">
+          <h2 class="section-contact__content-title">Get in Touch</h2>
+          <div class="section-contact__content-info">
+            <p class="section-contact__content-info-text">I’d love to hear about what you’re working on and how I could help. I’m currently looking for a new role and am open to a wide range of opportunities. My preference would be to find a position in a company in London. But I’m also happy to hear about opportunites that don’t fit that description. I’m a hard-working and positive person who will always approach each task with a sense of purpose and attention to detail. Please do feel free to check out my online profiles below and get in touch using the form.</p>
+
+            <!-- SOCIAL  -->
+            <ul class="social">
+              <li class="social__item">
+                <a class="social__link" href="#" target="_blank">
+                  <img class="social__icon" src="img/social/github-black.svg" alt="GitHub" width="25" height="24">
+                </a>
+              </li>
+              <li class="social__item">
+                <a class="social__link" href="#" target="_blank">
+                  <img class="social__icon" src="img/social/twitter-black.svg" alt="Twitter" width="24" height="19">
+                </a>
+              </li>
+              <li class="social__item">
+                <a class="social__link" href="#" target="_blank">
+                  <img class="social__icon" src="img/social/linkedin-black.svg" alt="LinkedIn" width="24" height="24">
+                </a>
+              </li>
+            </ul>
+          </div>
+        </section>
+
+      </div>
+
+      <!-- SECTION-FORM  -->
+      <section class="section-form">
+        <div class="container section-form__container">
+
+          <form class="form" action="https://echo.htmlacademy.ru/" method="GET" target="_blank">
+            <div class="form__inner">
+
+              <h2 class="form__title">Contact Me</h2>
+
+              <div class="form__area">
+                <div class="form__input-wrapper">
+                  <label class="label" for="auth-name">Name</label>
+                  <input class="form__input" type="text" id="auth-name" name="Your name is" placeholder="Jane Appleseed" aria-label="Enter your name" required>
+                  <div class="validation-error">This field is required</div>
+                </div>
+
+                <div class="form__input-wrapper">
+                  <label class="label" for="auth-email">Email address</label>
+                  <input class="form__input" type="email" id="auth-email" name="Your email is" placeholder="email@example.com" aria-label="Enter your email" required>
+                  <div class="validation-error">This field is required</div>
+                </div>
+
+                <div class="form__textarea-wrapper">
+                  <label class="label" for="auth-message">Message</label>
+                  <textarea class="form__textarea" name="Your message" id="auth-message" placeholder="How can I help?" aria-label="Enter your message" required></textarea>
+                  <div class="validation-error">This field is required</div>
+                </div>
+
+                <!-- BUTTON-SUBMIT  -->
+                <button class="button button--dark form__button" type="submit">Send message</button>
+              </div>
+
+            </div>
+          </form>
+        </div>
+      </section>
+    </div>
+
+
+
+  </main>
+
+
+  <!-- FOOTER  -->
+  <footer class="site-footer">
+
+    <div class="container site-footer__container">
+
+      <!-- LOGO  -->
+      <a class="logo site-footer__logo" href="index.html">
+        <img class="logo__img" src="img/logo-white.svg" alt="Minimalist logo" width="60" height="32">
+      </a>
+
+      <!-- SITE NAVIGATOR  -->
+      <div class="sitenav site-footer__sitenav">
+        <ul class="sitenav__list">
+          <li class="sitenav__item">
+            <a class="sitenav__link sitenav__link--white" href="index.html">Home</a>
+          </li>
+          <li class="sitenav__item">
+            <a class="sitenav__link sitenav__link--white" href="portfolio.html">Portfolio</a>
+          </li>
+          <li class="sitenav__item">
+            <a class="sitenav__link sitenav__link--white" href="contact.html">Contact me</a>
+          </li>
+        </ul>
+      </div>
+
+      <!-- SOCIAL  -->
+      <ul class="social">
+        <li class="social__item">
+          <a class="social__link" href="#" target="_blank">
+            <img class="social__icon" src="img/social/github.svg" alt="GitHub" width="25" height="24">
+          </a>
+        </li>
+        <li class="social__item">
+          <a class="social__link" href="#" target="_blank">
+            <img class="social__icon" src="img/social/twitter.svg" alt="Twitter" width="24" height="19">
+          </a>
+        </li>
+        <li class="social__item">
+          <a class="social__link" href="#" target="_blank">
+            <img class="social__icon" src="img/social/linkedin.svg" alt="LinkedIn" width="24" height="24">
+          </a>
+        </li>
+      </ul>
+    </div>
+  </footer>
+  <script src="js/main.js"></script>
+</body>
+</html>
